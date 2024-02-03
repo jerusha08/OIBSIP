@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+body{
+  /*background-color: #1f1e1e;*/
+  background: url('../src/images/todo.jpg');
+color:white;
+overflow:hidden;
+}
+h1{
+  text-align: center;
+  color:rgb(11, 11, 170);
+  font-family: 'Lemon', serif;
+}
+p{
+  text-align: center;
+  color:rgba(75, 4, 49, 0.878);
+}
+h4{
+  color:rgb(208, 172, 127);
+}
+.todo-wrap{
+background: /*#353434*/  /*#4E387E */#534456;;
+padding: 2%;
+width:fit-content;
+margin-left: auto;
+margin-right: auto;
+margin-top:3% ;
+max-height: 80vh;
+overflow-y: auto;
+box-shadow:0px 5px 7px rgb(27,27,27);
+}
+.todo-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(77, 77, 77);
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+.input-item{
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Merienda', cursive;
+  }
+  .input-item label{
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .input-item input {
+    border: none;
+    padding: 8px;
+    width: 250px;
+  }
+  
+  .input-item input:focus{
+    outline: 2px solid rgb(181, 73, 145);
+  }
+  .primaryBtn{
+    background-color: rgb(235, 109, 193);
+ color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 25px;
+    padding: 10px;
+    width: 60px;
+    cursor: pointer;
+  }
+  
+  
+  /* Adjust the opacity of the glass effect as needed */
+  .primaryBtn:hover{
+    background-color: rgb(181, 73, 145);
+  }
+
+  
+  .btn-types{
+    margin-bottom: 15px;
+    font-family: 'Merienda', cursive;
+  }
+  .secondaryBtn{
+    background-color: rgb(92, 92, 92);
+    color: white;
+    border-radius: 0px;
+    border: none;
+    padding: 10px;
+    width: fit-content;
+    cursor: pointer;
+    font-family: 'Merienda', cursive;
+  }
+  
+  .btn-types .active{
+    background-color: rgb(181, 73, 145);
+  }
+
+  
+.pending-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.pending-list-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #414040;
+  padding: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 4px rgb(39, 38, 38);
+}
+.pending-list-item h3{
+  font-size: 25px;
+  color:rgb(181, 73, 145);
+  font-weight: bold;
+  margin: 0px;
+}
+.todo-list-item p{
+  margin-top: 8px;
+  font-size: 14px;
+  color: rgb(179, 178, 178);
+
+}
+.icon{
+  font-size: 35px;
+  cursor: pointer;
+}
+.icon:hover{
+  color: red;
+
+}
+.check-icon{
+  font-size: 28px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.check-icon:hover{
+  color: rgb(4, 192, 104);
+}
